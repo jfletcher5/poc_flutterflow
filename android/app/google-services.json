@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "631022272098",
+    "project_id": "poc-firebase-5",
+    "storage_bucket": "poc-firebase-5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631022272098:android:939b1ad4843968ebba5b3b",
+        "android_client_info": {
+          "package_name": "com.llastmile.firebase_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631022272098-hdv69fq59g3ch8ho5milipf220fl0dh6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.llastmile.firebase_test",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "631022272098-pffco590in75oe0r9hhp8r7tdej3b787.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.llastmile.firebase_test",
+            "certificate_hash": "d528daa295605ef5d33812a89f87cbf2d875f6f4"
+          }
+        },
+        {
+          "client_id": "631022272098-9gio02ub04bv20r0pvri7c29pqpek9pg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgS36l4Vy5MVX6JXc2TDrw2DZy89aBAQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631022272098-9gio02ub04bv20r0pvri7c29pqpek9pg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "631022272098-m0t6pm05uvv96adkn1ai4odvvljklh63.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.llastmile.testfirebaseflutterflow"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631022272098:android:c5ac47b698aa86ebba5b3b",
+        "android_client_info": {
+          "package_name": "com.llastmile.testfirebaseflutterflow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631022272098-4pisrbv2e8lh50fv8hsca8grq30sr1mb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.llastmile.testfirebaseflutterflow",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "631022272098-9gio02ub04bv20r0pvri7c29pqpek9pg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgS36l4Vy5MVX6JXc2TDrw2DZy89aBAQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631022272098-9gio02ub04bv20r0pvri7c29pqpek9pg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "631022272098-m0t6pm05uvv96adkn1ai4odvvljklh63.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.llastmile.testfirebaseflutterflow"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
