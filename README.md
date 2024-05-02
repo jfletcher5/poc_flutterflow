@@ -1,4 +1,4 @@
-# test-firebase-flutterflow
+# firebase-testing
 
 A new Flutter project.
 

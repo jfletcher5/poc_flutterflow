@@ -1,3 +1,4 @@
 // Export pages
-export '/create_account/create_account_widget.dart' show CreateAccountWidget;
-export '/profile/profile_widget.dart' show ProfileWidget;
+export '/authtest/authtest_widget.dart' show AuthtestWidget;
+export '/tasks/tasks_widget.dart' show TasksWidget;
+export '/createtask/createtask_widget.dart' show CreatetaskWidget;

@@ -1,4 +1,4 @@
-package com.llastmile.testfirebaseflutterflow
+package com.llastmile.firebasetesting
 
 import io.flutter.embedding.android.FlutterActivity
 

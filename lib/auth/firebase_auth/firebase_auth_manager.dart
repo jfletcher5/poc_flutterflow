@@ -287,8 +287,7 @@ class FirebaseAuthManager extends AuthManager
       }
       return userCredential == null
           ? null
-          : TestFirebaseFlutterflowFirebaseUser.fromUserCredential(
-              userCredential);
+          : FirebaseTestingFirebaseUser.fromUserCredential(userCredential);
     } on FirebaseAuthException catch (e) {
       final errorMsg = switch (e.code) {
         'email-already-in-use' =>

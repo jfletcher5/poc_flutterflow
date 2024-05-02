@@ -72,24 +72,28 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       debugLogDiagnostics: true,
       refreshListenable: appStateNotifier,
       errorBuilder: (context, state) =>
-          appStateNotifier.loggedIn ? const ProfileWidget() : const CreateAccountWidget(),
+          appStateNotifier.loggedIn ? const TasksWidget() : const AuthtestWidget(),
       routes: [
         FFRoute(
           name: '_initialize',
           path: '/',
-          builder: (context, _) => appStateNotifier.loggedIn
-              ? const ProfileWidget()
-              : const CreateAccountWidget(),
+          builder: (context, _) =>
+              appStateNotifier.loggedIn ? const TasksWidget() : const AuthtestWidget(),
         ),
         FFRoute(
-          name: 'CreateAccount',
-          path: '/createAccount',
-          builder: (context, params) => const CreateAccountWidget(),
+          name: 'authtest',
+          path: '/authtest',
+          builder: (context, params) => const AuthtestWidget(),
         ),
         FFRoute(
-          name: 'Profile',
-          path: '/profile',
-          builder: (context, params) => const ProfileWidget(),
+          name: 'tasks',
+          path: '/tasks',
+          builder: (context, params) => const TasksWidget(),
+        ),
+        FFRoute(
+          name: 'createtask',
+          path: '/createtask',
+          builder: (context, params) => const CreatetaskWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
@@ -260,7 +264,7 @@ class FFRoute {
 
           if (requireAuth && !appStateNotifier.loggedIn) {
             appStateNotifier.setRedirectLocationIfUnset(state.uri.toString());
-            return '/createAccount';
+            return '/authtest';
           }
           return null;
         },

@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>test-firebase-flutterflow</string>
+	<string>firebase-testing</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -13,7 +13,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>test-firebase-flutterflow</string>
+	<string>firebase-testing</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 
@@ -28,7 +28,7 @@
             <string>Editor</string>
             <key>CFBundleURLSchemes</key>
             <array>
-                <string>com.googleusercontent.apps.631022272098-m0t6pm05uvv96adkn1ai4odvvljklh63</string>
+                <string>com.googleusercontent.apps.496910521368-qesp0v0k7tg97arfu8g6gd0424boonnq</string>
                 
             </array>
         </dict>
@@ -37,10 +37,10 @@
         <key>CFBundleTypeRole</key>
         <string>Editor</string>
         <key>CFBundleURLName</key>
-        <string>testfirebaseflutterflow.com</string>
+        <string>firebasetesting.com</string>
         <key>CFBundleURLSchemes</key>
         <array>
-        <string>testfirebaseflutterflow</string>
+        <string>firebasetesting</string>
         </array>
         </dict>
     </array>
