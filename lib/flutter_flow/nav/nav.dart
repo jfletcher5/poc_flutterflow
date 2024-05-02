@@ -82,7 +82,7 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
         ),
         FFRoute(
           name: 'authtest2',
-          path: '/authtest',
+          path: '/authtest2',
           builder: (context, params) => const AuthtestWidget(),
         ),
         FFRoute(
