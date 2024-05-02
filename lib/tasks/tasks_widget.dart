@@ -673,7 +673,7 @@ class _TasksWidgetState extends State<TasksWidget>
                                           const EdgeInsetsDirectional.fromSTEB(
                                               0.0, 0.0, 0.0, 0.0),
                                       color:
-                                          FlutterFlowTheme.of(context).primary,
+                                          FlutterFlowTheme.of(context).accent3,
                                       textStyle: FlutterFlowTheme.of(context)
                                           .titleSmall
                                           .override(
