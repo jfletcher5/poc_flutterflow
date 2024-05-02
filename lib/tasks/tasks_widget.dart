@@ -506,13 +506,16 @@ class _TasksWidgetState extends State<TasksWidget>
                               PageController(initialPage: 0),
                           scrollDirection: Axis.horizontal,
                           children: [
-                            ClipRRect(
-                              borderRadius: BorderRadius.circular(8.0),
-                              child: Image.network(
-                                'https://picsum.photos/seed/617/600',
-                                width: 300.0,
-                                height: 200.0,
-                                fit: BoxFit.cover,
+                            Padding(
+                              padding: const EdgeInsets.all(15.0),
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.circular(8.0),
+                                child: Image.network(
+                                  'https://picsum.photos/seed/617/600',
+                                  width: 300.0,
+                                  height: 200.0,
+                                  fit: BoxFit.cover,
+                                ),
                               ),
                             ),
                             ClipRRect(
