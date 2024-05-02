@@ -22,6 +22,14 @@
           }
         },
         {
+          "client_id": "496910521368-jfg67u2pj4caft8o78e8ck32ghdqftic.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.llastmile.firebasetesting",
+            "certificate_hash": "d528daa295605ef5d33812a89f87cbf2d875f6f4"
+          }
+        },
+        {
           "client_id": "496910521368-oh240rnoq8h0q8rtg7qv89ob7i14mkml.apps.googleusercontent.com",
           "client_type": 3
         }
